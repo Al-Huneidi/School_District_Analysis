@@ -102,3 +102,16 @@ Created a Summary based on the two types of schools:
 Charter
 District
 
+## Challenge Overview
+
+It has been discovered the score averages for ninth graders from Thomas High School are incorrect due to some academic dishonesty.  Therefore, the task is to replace the math and reading scored for the ninth graders at Thomas High School but keep  all other data associated with them intact for the overall analysis.
+
+## Objectives
+
+1.  Filter Dataframes using logical operators
+2.  Replace the incorrect values for the ninth graders at Thomas High School with a null value, NaN.
+3.  Explain how the PyCitySchools analysis has changed after handling the incorrect data.
+
+## Explanation of the PyCitySchools analysis changes after removing the incorrect math scores and reading scores of the ninth graders at Thomas High School:
+
+There was little change in the overall results for the District Summary, School Summary, the Top 5 and Bottom 5 Schools, School Performance based on Spending per Student, Size of School or Type of school.  This tells us that even though there may have been some tampering of the math and reading scores for the ninth graders at Thomas High School, for this analysis that “tampering” had minimal effect on the overall results of the analysis.
